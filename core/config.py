@@ -16,9 +16,8 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # Branding -- change these two lines and the whole app follows.
 # ---------------------------------------------------------------------------
-NAME = "ULTRON"
+NAME = "ULTRON AI"
 TAGLINE = "Your Personal Desktop Intelligence"
-EDITION = "by Nouman"
 AUTHOR = "M Nouman"
 CREDIT = "Designed & Developed by M Nouman"
 VERSION = "1.0.0"
