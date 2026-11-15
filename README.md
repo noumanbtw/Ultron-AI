@@ -1,18 +1,20 @@
-# NOMI AI
+# ULTRON by Nouman
 
 **Your Personal Desktop Intelligence**
 
-NOMI AI is a small, friendly desktop assistant you run on your own
+> All the cool of Ultron. None of the world domination. Built from scratch, owned by its maker.
+
+ULTRON is a cool, confident desktop assistant you run on your own
 computer. Talk to it in plain text (or voice, if you install the voice
 extras), ask it questions, and let it handle everyday chores: checking
 the time, doing maths, reporting on your system, looking up the weather,
 searching the web, opening apps, managing files safely, keeping
 reminders, controlling media, and more.
 
-NOMI is built to be honest about its limits. It works **completely
+ULTRON is built to be honest about its limits. It works **completely
 offline** with built-in skills on a bare Python install; add a free
 Google Gemini API key and the same chat also answers open-ended
-questions through the model. No key? No problem -- NOMI says it is in
+questions through the model. No key? No problem -- ULTRON says it is in
 offline mode and keeps helping with everything local.
 
 > Designed & Developed by M Nouman
@@ -22,7 +24,7 @@ offline mode and keeps helping with everything local.
 ## Features
 
 - **Chat, two ways** -- Gemini-powered answers when a key is configured,
-  graceful offline responses when it is not. NOMI never crashes just
+  graceful offline responses when it is not. ULTRON never crashes just
   because the network or the key is missing.
 - **Clock & calendar** -- current time, date, and day of the week.
 - **Safe calculator** -- arithmetic evaluated by walking the syntax
@@ -36,7 +38,7 @@ offline mode and keeps helping with everything local.
   the file manager by name.
 - **File tools with safe delete** -- list, create, and remove files.
   "Delete" always means *recoverable*: the OS trash via `send2trash`
-  when available, otherwise NOMI's own `data/trash` folder.
+  when available, otherwise ULTRON's own `data/trash` folder.
 - **Reminders** -- "remind me in 10 minutes to stretch", stored in a
   JSON file, with due reminders flagged when you list them.
 - **Media keys** -- play/pause, next/previous, volume up/down.
@@ -46,17 +48,17 @@ offline mode and keeps helping with everything local.
 - **Memory** -- the conversation is kept (capped, atomically written)
   in `data/conversation.json`, so context survives restarts.
 - **Status dashboard** -- an optional web page (standard library only)
-  showing NOMI's mode and system numbers at `http://127.0.0.1:8765`.
+  showing ULTRON's mode and system numbers at `http://127.0.0.1:8765`.
 - **Plugins** -- drop a Python file into `plugins/` following the
-  included template to teach NOMI new tricks.
+  included template to teach ULTRON new tricks.
 
 ## Quick start
 
 You need Python 3.10 or newer.
 
 ```bash
-git clone <this-repo-url> nomi-ai
-cd nomi-ai
+git clone <this-repo-url> ultron-by-nouman
+cd ultron-by-nouman
 python main.py
 ```
 
@@ -96,7 +98,7 @@ never committed.
 
 ## Usage examples
 
-| You say | NOMI does |
+| You say | ULTRON does |
 | --- | --- |
 | `what time is it` | Tells the time and date |
 | `calculate (15 + 5) / 4` | Answers `= 5` |
@@ -138,7 +140,7 @@ python -m dashboard.server
 ## Architecture
 
 ```
-nomi-ai/
+ultron-by-nouman/
 ├── main.py               Entry point: chat loop, --once, --voice, piped input
 ├── core/
 │   ├── config.py         Branding (NAME lives here) + settings from env / JSON
@@ -165,7 +167,7 @@ guarded**. Every feature that can work without a third-party install
 does, and every optional import is wrapped so a missing package turns
 into a friendly explanation, not a traceback.
 
-## Renaming NOMI
+## Renaming ULTRON
 
 The brand lives in exactly one place: `NAME` and `TAGLINE` at the top
 of `core/config.py` (plus the title of this README). Change them and

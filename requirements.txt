@@ -1,10 +1,10 @@
-# NOMI AI -- optional enhancements.
+# ULTRON -- optional enhancements.
 #
 # The core assistant runs on the Python standard library ALONE:
 # chat (offline mode), calculator, clock, reminders, safe file tools and
 # the dashboard all work with zero installs. Everything below simply
 # unlocks a richer version of one feature, and each import is guarded,
-# so NOMI keeps running if a package is missing.
+# so ULTRON keeps running if a package is missing.
 
 psutil>=5.9,<8          # system_info: CPU load and memory usage
 pyperclip>=1.8,<2       # clipboard read/write

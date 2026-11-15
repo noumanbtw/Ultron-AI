@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""NOMI AI -- Your Personal Desktop Intelligence.
+"""ULTRON -- Your Personal Desktop Intelligence.
 
 Entry point. Runs a chat loop that works fully headless (piped input,
 no microphone, no display) and adds optional voice interaction when the

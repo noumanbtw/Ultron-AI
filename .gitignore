@@ -5,7 +5,7 @@ __pycache__/
 .venv/
 venv/
 
-# NOMI runtime data (memory, reminders, safe-trash contents)
+# ULTRON runtime data (memory, reminders, safe-trash contents)
 data/
 
 # Secrets -- never commit your real key file
