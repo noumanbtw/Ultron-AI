@@ -1,4 +1,4 @@
-"""Intent routing for NOMI AI.
+"""Intent routing for ULTRON.
 
 The router looks at one line of user input, decides which built-in
 action (if any) it matches, and returns that action's response. Anything

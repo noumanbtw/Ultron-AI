@@ -1,9 +1,9 @@
-"""Central configuration for NOMI AI.
+"""Central configuration for ULTRON.
 
 Everything brand-related lives in this one module so the whole project can
 be renamed from a single place. Settings are read, in order of priority,
 from environment variables and then from ``config/api_keys.json`` in the
-project folder. No secret is ever required: without an API key NOMI simply
+project folder. No secret is ever required: without an API key ULTRON simply
 runs in its built-in offline mode.
 """
 
@@ -16,8 +16,9 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 # Branding -- change these two lines and the whole app follows.
 # ---------------------------------------------------------------------------
-NAME = "NOMI AI"
+NAME = "ULTRON"
 TAGLINE = "Your Personal Desktop Intelligence"
+EDITION = "by Nouman"
 AUTHOR = "M Nouman"
 CREDIT = "Designed & Developed by M Nouman"
 VERSION = "1.0.0"
@@ -60,12 +61,12 @@ class Settings:
             or str(file_settings.get("gemini_api_key", "")).strip()
         )
         self.model = (
-            os.environ.get("NOMI_MODEL")
+            os.environ.get("ULTRON_MODEL")
             or str(file_settings.get("model", "")).strip()
             or DEFAULT_MODEL
         )
         self.user_name = (
-            os.environ.get("NOMI_USER_NAME")
+            os.environ.get("ULTRON_USER_NAME")
             or str(file_settings.get("user_name", "")).strip()
             or "friend"
         )

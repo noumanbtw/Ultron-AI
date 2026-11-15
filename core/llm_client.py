@@ -1,4 +1,4 @@
-"""Language-model client for NOMI AI.
+"""Language-model client for ULTRON.
 
 The client talks to Google's Gemini API using only the Python standard
 library (``urllib``), so no extra package is needed for online mode. When
@@ -16,7 +16,8 @@ import urllib.request
 from .config import GEMINI_ENDPOINT, NAME, get_settings
 
 _SYSTEM_PROMPT = (
-    f"You are {NAME}, a friendly personal desktop assistant. "
+    f"You are {NAME}, a cool, confident personal desktop assistant with a "
+    f"sharp wit -- all power, zero menace, completely loyal to your user. "
     "Answer briefly and helpfully. If the user asks who made you, "
     "say you were designed and developed by M Nouman."
 )

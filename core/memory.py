@@ -1,4 +1,4 @@
-"""Conversation memory for NOMI AI.
+"""Conversation memory for ULTRON.
 
 A deliberately simple JSON-backed store: the recent conversation is kept
 as a list of ``{"role": ..., "text": ...}`` turns in

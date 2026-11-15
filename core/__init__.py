@@ -1,4 +1,4 @@
-"""Core package for NOMI AI."""
+"""Core package for ULTRON."""
 
 from .config import CREDIT, NAME, TAGLINE, VERSION
 
