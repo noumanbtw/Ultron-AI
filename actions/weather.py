@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 
 _ENDPOINT = "https://wttr.in/{city}?format=j1"
-_USER_AGENT = "NomiAI/1.0"
+_USER_AGENT = "UltronAI/1.0"
 
 
 def run(argument: str = "") -> str:

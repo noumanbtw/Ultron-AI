@@ -1,7 +1,7 @@
 """Simple reminders stored in a JSON file.
 
 Reminders are plain records -- text plus an optional due time -- kept in
-``data/reminders.json``. NOMI lists and clears them on request; a due
+``data/reminders.json``. ULTRON lists and clears them on request; a due
 reminder is shown when you list them after its time has passed.
 """
 

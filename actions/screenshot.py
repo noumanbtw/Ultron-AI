@@ -18,7 +18,7 @@ def run(argument: str = "") -> str:
         folder.mkdir(parents=True, exist_ok=True)
     except OSError as exc:
         return f"That folder can't be used: {exc.strerror or exc}."
-    target = folder / f"nomi-screenshot-{stamp}.png"
+    target = folder / f"ultron-screenshot-{stamp}.png"
 
     try:
         from PIL import ImageGrab

@@ -2,7 +2,7 @@
 
 Deleting never destroys anything outright: when the optional
 ``send2trash`` package is available the file goes to the operating
-system's recycle bin / trash; otherwise it is moved into NOMI's own
+system's recycle bin / trash; otherwise it is moved into ULTRON's own
 ``data/trash`` folder, from where it can always be recovered by hand.
 """
 

@@ -1,4 +1,4 @@
-"""Action modules for NOMI AI.
+"""Action modules for ULTRON.
 
 Each module exposes a single ``run(argument: str) -> str`` function that
 performs one small, well-defined job and returns a human-readable result.

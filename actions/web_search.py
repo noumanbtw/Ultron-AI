@@ -13,7 +13,7 @@ import urllib.parse
 import urllib.request
 
 _ENDPOINT = "https://html.duckduckgo.com/html/?q="
-_USER_AGENT = "Mozilla/5.0 (compatible; NomiAI/1.0)"
+_USER_AGENT = "Mozilla/5.0 (compatible; UltronAI/1.0)"
 _MAX_RESULTS = 5
 
 
