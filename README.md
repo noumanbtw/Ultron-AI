@@ -1,4 +1,4 @@
-# ULTRON by Nouman
+# ULTRON AI
 
 **Your Personal Desktop Intelligence**
 
