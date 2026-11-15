@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# NOMI runtime data (memory, reminders, safe-trash contents)
+data/
+
+# Secrets -- never commit your real key file
+config/api_keys.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

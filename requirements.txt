@@ -1,0 +1,18 @@
+# NOMI AI -- optional enhancements.
+#
+# The core assistant runs on the Python standard library ALONE:
+# chat (offline mode), calculator, clock, reminders, safe file tools and
+# the dashboard all work with zero installs. Everything below simply
+# unlocks a richer version of one feature, and each import is guarded,
+# so NOMI keeps running if a package is missing.
+
+psutil>=5.9,<8          # system_info: CPU load and memory usage
+pyperclip>=1.8,<2       # clipboard read/write
+Pillow>=10,<12          # screenshots via ImageGrab
+send2trash>=1.8,<2      # safe delete via the OS recycle bin / trash
+
+# Voice mode (only used with `python main.py --voice`):
+# pyttsx3>=2.90
+# SpeechRecognition>=3.10
+# pyautogui>=0.9.54     # media keys fallback in media_control
+# mss>=9,<11            # screenshot fallback if Pillow is unavailable
